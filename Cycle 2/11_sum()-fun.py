@@ -1,0 +1,10 @@
+import numpy as np  
+a=np.array([4,5])  
+b=np.array([[1,2,3],[4,5,6]])
+print("1D array\n",a)
+print("2D array\n",b)
+print("sum() function")
+asum=np.sum(a)  
+print(asum) 
+bsum=np.sum(b)
+print(bsum) 

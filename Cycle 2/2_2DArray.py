@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([[1,2,3],[4,5,6]],dtype=complex)
+print("2x3 Array :")
+print(a)
+print("Rows and Columns : ",a.shape)
+print("Dimension : ",a.ndim)
+print("Reshape to 3x2 Array : ")
+newArr=a.reshape(3,2)
+print(newArr)
+print("Rows and Columns : ",newArr.shape)
